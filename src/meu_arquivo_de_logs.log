@@ -1,0 +1,24 @@
+2025-03-28T11:00:05.588224-0300 INFO Chamando função 'pegar_pokemon' com args (176,) e kwargs {} utils_log.py
+2025-03-28T11:00:05.807994-0300 INFO name='togetic' type='fairy, flying' controller.py
+2025-03-28T11:00:05.809701-0300 INFO Função 'pegar_pokemon' retornou None utils_log.py
+2025-03-28T11:00:10.811117-0300 INFO Chamando função 'pegar_pokemon' com args (85,) e kwargs {} utils_log.py
+2025-03-28T11:00:10.904859-0300 INFO name='dodrio' type='normal, flying' controller.py
+2025-03-28T11:00:10.906810-0300 INFO Função 'pegar_pokemon' retornou None utils_log.py
+2025-03-28T11:00:15.908497-0300 INFO Chamando função 'pegar_pokemon' com args (336,) e kwargs {} utils_log.py
+2025-03-28T11:00:15.993996-0300 INFO name='seviper' type='poison' controller.py
+2025-03-28T11:00:15.995250-0300 INFO Função 'pegar_pokemon' retornou None utils_log.py
+2025-03-28T11:00:20.996297-0300 INFO Chamando função 'pegar_pokemon' com args (206,) e kwargs {} utils_log.py
+2025-03-28T11:00:21.236341-0300 INFO name='dunsparce' type='normal' controller.py
+2025-03-28T11:00:21.238161-0300 INFO Função 'pegar_pokemon' retornou None utils_log.py
+2025-03-28T11:00:26.239205-0300 INFO Chamando função 'pegar_pokemon' com args (198,) e kwargs {} utils_log.py
+2025-03-28T11:00:26.316719-0300 INFO name='murkrow' type='dark, flying' controller.py
+2025-03-28T11:00:26.317516-0300 INFO Função 'pegar_pokemon' retornou None utils_log.py
+2025-03-28T11:00:31.318263-0300 INFO Chamando função 'pegar_pokemon' com args (330,) e kwargs {} utils_log.py
+2025-03-28T11:00:31.531537-0300 INFO name='flygon' type='ground, dragon' controller.py
+2025-03-28T11:00:31.533319-0300 INFO Função 'pegar_pokemon' retornou None utils_log.py
+2025-03-28T11:00:36.534620-0300 INFO Chamando função 'pegar_pokemon' com args (37,) e kwargs {} utils_log.py
+2025-03-28T11:00:36.658491-0300 INFO name='vulpix' type='fire' controller.py
+2025-03-28T11:00:36.660167-0300 INFO Função 'pegar_pokemon' retornou None utils_log.py
+2025-03-28T11:00:41.662106-0300 INFO Chamando função 'pegar_pokemon' com args (240,) e kwargs {} utils_log.py
+2025-03-28T11:00:41.754797-0300 INFO name='magby' type='fire' controller.py
+2025-03-28T11:00:41.756303-0300 INFO Função 'pegar_pokemon' retornou None utils_log.py
