@@ -4,18 +4,13 @@ from loguru import logger
 from sys import stderr
 from functools import wraps
 
-# Configuração do logger para exibir logs no stderr e salvar em arquivo, com filtragem e formatação específicas
-logger.add(
-    sink=stderr,
-    format="{time} <r>{level}</r> <g>{message}</g> {file}",
-    level="INFO"
-)
+# Configuração do logger para exibir logs no stderr e salvar em arquivo, com filtragem e formatação específicas.
 
 logger.add(
-    "meu_arquivo_de_logs.log",  # Arquivo onde os logs serão salvos
-    format="{time} {level} {message} {file}",
-    level="INFO"
-)
+                "meu_arquivo_de_logs.log",
+                format="{time} {level} {message} {file}"
+            )
+
 
 def log_decorator(func):  # Recebe uma função e decora ela.
     @wraps(func)        # Essa linha de código nos garante que, a função recebida não perca suas características originais.
@@ -26,6 +21,6 @@ def log_decorator(func):  # Recebe uma função e decora ela.
             logger.info(f"Função '{func.__name__}' retornou {result}")
             return result
         except Exception as e:      # Se caso der alguma excessão (falha), nos jogará essa informação
-            logger.exception(f"Exceção capturada em '{func.__name__}': {e}")
-            raise  # Re-lança a exceção para não alterar o comportamento da função decorada
+            logger.exception(f"Ops! Houve uma excessão com erro: {e}")
+            raise   # Re-lança a exceção para não alterar o comportamento da função decorada
     return wrapper
